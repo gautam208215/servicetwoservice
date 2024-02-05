@@ -1,6 +1,9 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka
+  client:
+    service-url:
+      defaultZone: http://192.168.59.104:30012/eureka
 
 server:
   port: 9091
